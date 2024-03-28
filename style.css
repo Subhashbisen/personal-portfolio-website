@@ -106,7 +106,7 @@ a {
     text-decoration: none;
 }
 
-.nav-items div a i {
+.nav-items div a .lordicon {
     display: none;
 }
 
@@ -351,7 +351,7 @@ a {
     animation: shakeEffectPlus 5s ease-in infinite;
 }
 
-.icon-container{
+.icon-container {
     cursor: pointer;
 }
 
@@ -703,11 +703,12 @@ a {
 .qualification-sections {
     display: flex;
     justify-content: center;
+    padding-bottom: 4rem;
 }
 
-.qualification-sections .lord-icon{
+.qualification-sections .lord-icon {
     width: 18px;
-    color:  #4e45d5;
+    color: #4e45d5;
 }
 
 .qualification-content {
@@ -765,9 +766,11 @@ a {
     gap: 9px;
     align-items: center;
 }
+
 .qualification-calender i {
     color: var(--Im-para-text);
 }
+
 .qualification-calender span {
     color: var(--Im-para-text);
 }
@@ -788,23 +791,28 @@ a {
     transform: translate(6px, -7px);
 }
 
-.school-detail{
+.school-detail {
     display: flex;
     gap: 30px;
 }
 
-.active{
+.active {
     display: flex;
 }
 
-.job-duration{
+.job-duration {
     font-size: 14px;
 }
+
+.secondjob {
+    width: 50px;
+}
+
 /* contact-section */
 .contactus-form-container {
     width: 100%;
     /* background-color: rgb(231, 231, 231); */
-    background-color: var(--lm-primary-bg);
+    /* background-color: var(--lm-primary-bg); */
 }
 
 .contactus-heading {

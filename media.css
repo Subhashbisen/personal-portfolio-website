@@ -220,10 +220,18 @@
     margin-inline: 35px;
   }
 
+  .qualification-content {
+    width: 42vw;
+}
+
 }
 
 
 @media (max-width:913px) {
+
+  .qualification-content {
+    width: 48vw;
+}
 
   .left-nav {
     padding-right: 28px;
@@ -269,6 +277,10 @@
   /* .navbar {
     width: 71%;
   } */
+
+  .qualification-content {
+    width: 56vw;
+}
 
   .About-me-right {
     width: 364px;
@@ -381,7 +393,7 @@
     align-items: center;
   }
 
-  .nav-items div a i {
+  .nav-items div a .lordicon {
     display: flex;
     color: var(--lm-secondary-text);
   }
@@ -431,6 +443,10 @@
     font-weight: 500;
     cursor: pointer;
   }
+
+  .qualification-content {
+    width: 78vw;
+}
 
   /* 
   .navbar {
@@ -563,7 +579,27 @@
 }
 
 
-@media (max-width:429px) {
+@media (max-width:431px) {
+
+  .qualification_title {
+    font-size: 13px;
+}
+
+.qualification-content {
+  width: 82vw;
+}
+
+.qualification-data {
+  gap: 18px;
+}
+
+.college-name {
+  font-size: 11px;
+}
+
+.job-duration {
+  font-size: 11px;
+}
 
   .skills-container {
     padding: 3rem 48px;
@@ -682,10 +718,41 @@
 
 }
 
+@media (max-width:415px){
+
+  .qualification_title {
+    font-size: 12px;
+}
+
+.college-name {
+  font-size: 11px;
+}
+  .qualification-calender span {
+    font-size: 12px;
+}
+
+.qualification-calender i{
+  font-size: 13px;
+}
+
+.qualification-calender span {
+  font-size: 10px;
+}
+
+}
+
 @media (max-width:394px) {
   /* .navbar {
     width: 30%;
   } */
+
+  .qualification_title {
+    font-size: 11px;
+}
+
+.college-name {
+  font-size: 11px;
+}
 
   .hero-section {
     flex-direction: column;
